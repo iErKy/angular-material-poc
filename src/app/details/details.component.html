@@ -1,0 +1,33 @@
+<div class="container">
+  <form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Service Department</mat-label>
+      <input matInput>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput>
+    </mat-form-field>
+  </form>
+  <h4>Basic mat-select</h4>
+  <mat-form-field appearance="fill">
+    <mat-label>Favorite food</mat-label>
+    <mat-select>
+      <mat-option>Pizza</mat-option>
+      <mat-option>Pasta</mat-option>
+      <mat-option>Steak</mat-option>
+      <mat-option>Sushi</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <section class="example-section">
+    <p>Enable COOL Traceability</p>
+    <mat-checkbox class="example-margin" [checked]="true"></mat-checkbox>
+    <p>Allow tare Usage</p>
+    <mat-checkbox class="example-margin"></mat-checkbox>
+  </section>
+  <div class="example-button-row">
+    <button mat-raised-button>Delete</button>
+    <button mat-raised-button>Save</button>
+  </div>
+</div>
